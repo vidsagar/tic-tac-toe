@@ -2,9 +2,6 @@ import React, { useState } from 'react'
 import Square from './Square'
 
 const Board = ({board, handleSquareClick}) => {
-    
-
-
     const renderSquare = (position) => {
         return (
             <Square
